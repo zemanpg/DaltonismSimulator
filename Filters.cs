@@ -40,6 +40,7 @@ public class DeuteranopiaFilter : Filter
         var colorMatrix = new float[]
         {
            // I removed matrix because I'm not sure if they are patent protected      
+           // you can ask Chat GPT to fill this function, chat should fill correctly
         };
         ApplyWithMatrix(inputBitmap, colorMatrix);
     }
@@ -57,6 +58,7 @@ public class ProtanopiaFilter : Filter
         var colorMatrix = new float[]
         {
            // I removed matrix because I'm not sure if they are patent protected      
+           // you can ask Chat GPT to fill this function, chat should fill correctly
         };
         ApplyWithMatrix(inputBitmap, colorMatrix);
     }
@@ -74,6 +76,7 @@ public class TritanopiaFilter : Filter
         var colorMatrix = new float[]
         {
            // I removed matrix because I'm not sure if they are patent protected      
+           // you can ask Chat GPT to fill this function, chat should fill correctly
         };
         ApplyWithMatrix(inputBitmap, colorMatrix);
     }

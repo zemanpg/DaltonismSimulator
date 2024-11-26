@@ -39,10 +39,7 @@ public class DeuteranopiaFilter : Filter
     {
         var colorMatrix = new float[]
         {
-            0.8f, 0.2f, 0.0f, 0.0f, 0.0f, // Red
-            0.0f, 0.7f, 0.3f, 0.0f, 0.0f, // Green
-            0.0f, 0.0f, 1.0f, 0.0f, 0.0f, // Blue
-            0.0f, 0.0f, 0.0f, 1.0f, 0.0f, // Alpha
+           // I removed matrix because I'm not sure if they are patent protected      
         };
         ApplyWithMatrix(inputBitmap, colorMatrix);
     }
@@ -59,10 +56,7 @@ public class ProtanopiaFilter : Filter
     {
         var colorMatrix = new float[]
         {
-            0.567f, 0.433f, 0.0f, 0.0f, 0.0f, // Red
-            0.558f, 0.442f, 0.0f, 0.0f, 0.0f, // Green
-            0.0f,   0.242f, 0.758f, 0.0f, 0.0f, // Blue
-            0.0f,   0.0f,   0.0f,   1.0f, 0.0f, // Alpha
+           // I removed matrix because I'm not sure if they are patent protected      
         };
         ApplyWithMatrix(inputBitmap, colorMatrix);
     }
@@ -79,10 +73,7 @@ public class TritanopiaFilter : Filter
     {
         var colorMatrix = new float[]
         {
-            0.95f, 0.05f, 0.0f, 0.0f, 0.0f, // Red
-            0.0f,  0.433f, 0.567f, 0.0f, 0.0f, // Green
-            0.0f,  0.475f, 0.525f, 0.0f, 0.0f, // Blue
-            0.0f,  0.0f,   0.0f,   1.0f, 0.0f, // Alpha
+           // I removed matrix because I'm not sure if they are patent protected      
         };
         ApplyWithMatrix(inputBitmap, colorMatrix);
     }
